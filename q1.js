@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 function typeChecker(a, b) {
     if (typeof a === 'string' && typeof b === 'string') {
-        return ' I LOVE YOU';
+        return 'I LOVE YOU';
     }
     else if (typeof a === 'number' && typeof b === 'number') {
         return a + b;
