@@ -1,9 +1,9 @@
 function primeNumber(a) {
   for(let i = 2; i <= a; i++){
-    if(i === a){
+    if(i == a){
       return "YES";
     }
-    if(a % i === 0){
+    if(a % i == 0){
         return "NO";
     }
   }
